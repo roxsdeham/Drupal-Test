@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if gte IE 9]><!--><html lang="en" dir="ltr"><!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www-test.empac.rpi.edu/profiles/empac_cms/themes/empac_cms/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Experimental Media and Performing Arts Center (EMPAC)</title>
+  <style type="text/css" media="all">@import url("http://www-test.empac.rpi.edu/modules/system/system.base.css?nbn1we");</style>
+<style type="text/css" media="all">@import url("http://www-test.empac.rpi.edu/modules/comment/comment.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/date/date_api/date.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/date/date_popup/themes/datepicker.1.7.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/modules/field/theme/field.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/modules/node/node.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/modules/search/search.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/modules/user/user.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/views/css/views.css?nbn1we");</style>
+<style type="text/css" media="all">@import url("http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/ctools/css/ctools.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/views_slideshow/views_slideshow.css?nbn1we");</style>
+<style type="text/css" media="all">@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/default.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/events.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/narrow.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/events-narrow.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/medium.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/events-medium.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/desktop.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/events-desktop.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/wide.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/events-wide.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/views_isotope.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/news.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/news-desktop.css?nbn1we");
+@import url("http://www-test.empac.rpi.edu/sites/default/files/less/profiles/empac_cms/themes/empac_cms/less/research.css?nbn1we");</style>
+  <script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/jquery_update/replace/jquery/jquery.min.js?v=1.5.2"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/misc/drupal.js?nbn1we"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/resp_img/resp_img.js?nbn1we"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/libraries/modernizr/modernizr.min.js?nbn1we"></script>
+<script type="text/javascript" src="http://use.typekit.com/kox8ect.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{Typekit.load();}catch(e){};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/views_slideshow/js/views_slideshow.js?nbn1we"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/libraries/jquery.isotope/jquery.isotope.min.js?nbn1we"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/views_isotope/views_isotope.js?nbn1we"></script>
+<script type="text/javascript" src="http://www-test.empac.rpi.edu/profiles/empac_cms/modules/contrib/google_analytics/googleanalytics.js?nbn1we"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-18180066-1"]);_gaq.push(["_setDomainName", ".www-test.empac.rpi.edu"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"empac_cms","theme_token":"kiH3hmqC3MeNrkgknHYFgdvcJCcPtNY1_khRWTe9mtA","js":{"profiles\/empac_cms\/modules\/contrib\/jquery_update\/replace\/jquery\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/empac_cms\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/empac_cms\/modules\/contrib\/resp_img\/resp_img.js":1,"profiles\/empac_cms\/libraries\/modernizr\/modernizr.min.js":1,"http:\/\/use.typekit.com\/kox8ect.js":1,"0":1,"profiles\/empac_cms\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"profiles\/empac_cms\/libraries\/jquery.isotope\/jquery.isotope.min.js":1,"profiles\/empac_cms\/modules\/contrib\/views_isotope\/views_isotope.js":1,"profiles\/empac_cms\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/comment\/comment.css":1,"profiles\/empac_cms\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/empac_cms\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/empac_cms\/modules\/contrib\/views\/css\/views.css":1,"profiles\/empac_cms\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/empac_cms\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"profiles\/empac_cms\/modules\/contrib\/views_isotope\/views_isotope.css":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/default.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/events.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/narrow.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/events-narrow.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/medium.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/events-medium.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/desktop.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/events-desktop.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/wide.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/events-wide.less":1,"profiles\/empac_cms\/themes\/empac_cms\/css\/views_isotope.css":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/views_isotope.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/news.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/news-desktop.less":1,"profiles\/empac_cms\/themes\/empac_cms\/less\/research.less":1}},"modernizrPath":false,"modernizrServerside":false,"respImg":{"default_suffix":"__default","current_suffix":"__desktop","forceRedirect":false,"forceResize":false,"reloadOnResize":false,"useDevicePixelRatio":false,"suffixes":{"__desktop":1400,"__medium":1112,"__narrow":720,"__default":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackDomainMode":"1","trackCrossDomains":"http:\/\/empac.rpi.edu"}});
+//--><!]]>
+</script>
+</head>
+
+<body>
+    
+    <header id="masthead" class="wrapper">
+              <a href="/" title="Home" rel="home" id="logo" class="wrapper">
+          <img src="http://www-test.empac.rpi.edu/profiles/empac_cms/themes/empac_cms/logo.png" alt="Home" />
+        </a>
+                
+        <div id="headerRight">
+              <nav id="secondary-menu" class="wrapper">
+        <ul id="secondary-menu" class="links"><li class="menu-421 first"><a href="https://tickets.empac.rpi.edu/TheatreManager/1/login&amp;event=0" title="">Tickets</a></li>
+<li class="menu-595"><a href="/visit">Visit</a></li>
+<li class="menu-594"><a href="/building">Building</a></li>
+<li class="menu-596 last"><a href="/about">About</a></li>
+</ul>      </nav>
+        </div>
+      
+
+          </header>
+    
+          <nav id="main-menu">
+        <ul id="main-menu-links" class="links wrapper"><li class="menu-420 first"><a href="/events/2014/fall" title="">Calendar</a></li>
+<li class="menu-9248"><a href="/video_archive" title="Video Archive">Video</a></li>
+<li class="menu-242"><a href="/research">Research</a></li>
+<li class="menu-9316"><a href="/residencies">Residencies</a></li>
+<li class="menu-423"><a href="/commissions" title="">Commissions</a></li>
+<li class="menu-9304 last"><a href="/contactus">contact</a></li>
+</ul>      </nav>
+    
+    <div id="content-wrapper">
+
+      <div id="content" class="wrapper">
+                
+        <div id="highlighted">  <div class="region region-highlighted">
+    <section id="block-block-2" class="block block-block">
+        <div class="content">
+    <div style="position: relative; padding-bottom: 56.25%;  padding-top: 25px; margin-bottom: 2em; height: 0;">
+<iframe width="500" height="281" src="https://player.vimeo.com/video/82310094" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-bottom: 2em; border:0;" allowfullscreen=""></iframe></div>
+  </div>
+</section>
+  </div>
+</div>                                <div class="tabs"></div>                          <div class="region region-content">
+    <section id="block-system-main" class="block block-system">
+        <div class="content">
+    
+ <hgroup class="event-title">
+   <h1><a style="color: #000; border-bottom: none;"href="/events/2014/fall">Upcoming Events</a></h1>
+ </hgroup>
+ 
+ <div id="homeLeftSide"> 
+<!--Upcoming Events subheader was here <h2>Upcoming Events:</h2>-->
+      <div id="isotope-container">
+                    <div class="isotope-element isotope-element-0 " data-category="" >
+        
+<a href="/events/2014/fall/my-voice-has-echo-it">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-0-0" class="styles file-styles empac_cms_isotope">  <img src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/temporaryDistortionPhotoScottFetterman.jpg?itok=plkkY1XZ"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">My Voice Has An Echo In It</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Temporary Distortion</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Sat, Oct 4, <span class="date-display-start">4PM</span>&ndash;<span class="date-display-end">10PM</span></span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-1 " data-category="" >
+        
+<a href="/events/2014/fall/empathy-school">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-1-0" class="styles file-styles empac_cms_isotope">  <img id="1" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/EmpathySchool_5.jpg?itok=le-KBWQS"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">Empathy School	</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Aaron Landsman + Brent Green</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Sat, Oct 4, 5:30PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-2 " data-category="" >
+        
+<a href="/events/2014/fall/johannes-goebel">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-2-0" class="styles file-styles empac_cms_isotope">  <img id="2" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/JEG_placeholder2.png?itok=qxJZJ5w1"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Talk</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">Johannes Goebel</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Speaking So To Speak</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Talk</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Wed, Oct 15, 7PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-3 " data-category="" >
+        
+<a href="/events/2014/fall/big-combo">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-3-0" class="styles file-styles empac_cms_isotope">  <img id="3" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/BigCombo.jpg?itok=OwUFESTo"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Film/Video</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">The Big Combo</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Directed by Joseph H. Lewis</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Film/Video</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Wed, Oct 22, 7PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-4 " data-category="" >
+        
+<a href="/events/2014/fall/eureka-lighthouse-play">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-4-0" class="styles file-styles empac_cms_isotope">  <img id="4" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/EllieGa_Eureka_Qait-Bey-Citadel.jpg?itok=4et2NRa-"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">Eureka, a lighthouse play</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Ellie Ga</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Fri, Oct 24, 7PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-0 " data-category="" >
+        
+<a href="/events/2014/fall/fortunetellers">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-5-0" class="styles file-styles empac_cms_isotope">  <img id="5" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/EllieGa_Fortunetellers_fissure.jpg?itok=fBTGS_Gb"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">The Fortunetellers</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Ellie Ga</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Sat, Oct 25, 7PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-1 " data-category="" >
+        
+<a href="/events/2014/fall/27-across-25-down">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-6-0" class="styles file-styles empac_cms_isotope">  <img id="6" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/IsabellaPauwels_2.jpg?itok=43ZLJoP6"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">27 Across / 25 Down</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content">Isabelle Pauwels</div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Performance</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-single">Thu, Oct 30, 7:30PM</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+                      <div class="isotope-element isotope-element-2 " data-category="" >
+        
+<a href="/events/2014/fall/rosa-barba">
+<div class="isotope-fields-container">
+	<div class="field-content"><span id="styles-7-0" class="styles file-styles empac_cms_isotope">  <img id="7" src="http://www-test.empac.rpi.edu/sites/default/files/styles/empac_cms_isotope/public/RosaBarba_whitemuseumSun.jpg?itok=b8NHhIMb"   /></span></div>	<div class="isotope-main-content"> 
+	  <div class="isotope-sponsor-event-narrow">
+	    <div class="isotope-field-sponsor"> 
+        <div class="Curated">
+          Curated:        </div>
+  		</div>
+  		<div class="isotope-event-type"> 
+	  	  <div class="field-content">Film/Video</div>		  </div>  
+	  </div>
+	  <div class="isotope-field-title">	  	
+	  	<h3>
+	    <div class="field-content">Rosa Barba</div>	    </h3>
+	  </div> 
+	        <div class="isotope-field-subtitle">	  	
+        <div class="field-content"></div>      </div>
+	  	  <div class="isotope-sponsor-event">
+	  	<div class="isotope-field-sponsor"> 
+		    <div class="Curated">
+          Curated:        </div>
+		  </div>
+		  <div class="isotope-event-type"> 
+		  <div class="field-content">Film/Video</div>		  </div>  
+	  </div>
+	</div>
+	<div class="isotope-field-date">
+	  <div class="field-content"><span class="date-display-start">Thu, Nov 6</span>&ndash;<span class="date-display-end">Sat, Dec 6</span></div>	
+	</div>
+</div>   
+</a>
+
+
+      </div>
+            </div>
+
+ <!-- added 3/14 -->
+<p><a href="events/2014/fall/">Full Fall Calendar</a></p>
+ </div>
+    
+ <div id="homeRightSide">
+    <div id="news-block">
+     <h1 class="wrap-around">News</h1>
+       <div id="news-block-inner">
+       <div class="view view-home view-id-home view-display-id-block_4 view-dom-id-2852c401c32bd9edb4512f0c8e468cbd">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/05/28/empac-featured-wmht">EMPAC featured on WMHT</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">May 28, 2014</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/04/24/job-opening-manager-marketing-and-communications">JOB OPENING: Manager, Marketing and Communications</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">April 24, 2014</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/04/14/students-funded-summer-research-project-scientific-data-exploration">STUDENTS: Funded Summer Research Project in Scientific Data Exploration</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">April 14, 2014</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="/news">More News...</a></p>
+    </div>
+  
+  
+</div>       </div>
+   </div>
+ <div id='boxes-box-mailing_list' class='boxes-box'><div class="boxes-box-content"><div id="mailingList2">
+<h2>Mailing List</h2>
+<!-- Begin MailChimp Signup Form --><div id="mc_embed_signup">
+<form action="http://rpi.us1.list-manage.com/subscribe/post?u=9fda259e30370acf119e27745&amp;id=d8f2fc805d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+<p>          </p><fieldset>Keep up to date on all the latest event information and news via our weekly emails.
+<div class="mc-field-group">
+            <label for="mce-EMAIL">Email:</label><br /><input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" /></div>
+<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" /></div>
+<p>        </p></fieldset><br /></form>
+</div>
+</div>
+</div></div> </div>
+  </div>
+</section>
+<section id="block-views-home-block-2" class="block block-views">
+        <h1>In Residence</h1>
+      <div class="content">
+    <div class="view view-home view-id-home view-display-id-block_2 view-dom-id-fef65afa502796e42c4c9d1e31efb1b2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="/events/2012/fall/primal-matter">Dimitris Papaioannou</a>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="/events/2012/fall/thom-kubli">Thom Kubli</a>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="/events/2012/fall/rushes">Michael Gordon</a>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="/events/2012/fall/triptych-0811">Ella Fiskum Danz</a>    </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+          <a href="/events/2012/fall/tim-hecker">Tim Hecker</a>    </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+          <a href="/events/2012/fall/cluster">Kurt Hentschläger</a>    </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+          <a href="/events/2012/fall/yegor-shevtsov">Yegor Shevtsov</a>    </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+          <a href="/events/2012/fall/four-walls">Ralph Lemon</a>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</section>
+<section id="block-views-home-block-4" class="block block-views">
+        <h1>News</h1>
+      <div class="content">
+    <div class="view view-home view-id-home view-display-id-block_4 view-dom-id-affbfed124dc2b530aa8a84a42fd9745">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/05/28/empac-featured-wmht">EMPAC featured on WMHT</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">May 28, 2014</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/04/24/job-opening-manager-marketing-and-communications">JOB OPENING: Manager, Marketing and Communications</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">April 24, 2014</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/2014/04/14/students-funded-summer-research-project-scientific-data-exploration">STUDENTS: Funded Summer Research Project in Scientific Data Exploration</a></span>  </div>  
+  <div class="views-field views-field-field-article-author">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-created">    <span class="views-label views-label-created">Posted: </span>    <span class="field-content">April 14, 2014</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="/news">More News...</a></p>
+    </div>
+  
+  
+</div>  </div>
+</section>
+  </div>
+              </div>
+   
+      
+            <aside id="sidebar-first" class="wrapper">
+          <div class="region region-sidebar-first">
+    <section id="block-views-37749a33cabc6d151bb4bd13c8817aab" class="block block-views">
+        <h1>What's On Test for Festival</h1>
+      <div class="content">
+    <div class="view view-event-type-taxonomy view-id-event_type_taxonomy view-display-id-block_whats_on view-dom-id-1afbca25029bccfb3c026c82714dd0c8">
+        
+  
+  
+      <div class="view-content">
+      
+<div id="isotope-options">
+  <ul id="filters" class="option-set clearfix" data-option-key="filter">
+  
+          
+                
+      <li><a class="filterbutton" data-option-value=".workshop" href="#filter"><div class="views-field views-field-nothing">              <span class="field-content"></span>      </div>  
+  <div class="views-field views-field-name">              <span class="field-content"><a href="/events/2014/fall?type=workshop">Workshop</a></span>      </div></a></li>
+
+      
+          
+                
+      <li><a class="filterbutton" data-option-value=".talk" href="#filter"><div class="views-field views-field-nothing">              <span class="field-content"></span>      </div>  
+  <div class="views-field views-field-name">              <span class="field-content"><a href="/events/2014/fall?type=talk">Talk</a></span>      </div></a></li>
+
+      
+          
+                
+      <li><a class="filterbutton" data-option-value=".film-video" href="#filter"><div class="views-field views-field-nothing">              <span class="field-content"></span>      </div>  
+  <div class="views-field views-field-name">              <span class="field-content"><a href="/events/2014/fall?type=film/video">Film/Video</a></span>      </div></a></li>
+
+      
+          
+                
+      <li><a class="filterbutton" data-option-value=".installation" href="#filter"><div class="views-field views-field-nothing">              <span class="field-content"></span>      </div>  
+  <div class="views-field views-field-name">              <span class="field-content"><a href="/events/2014/fall?type=installation">Installation</a></span>      </div></a></li>
+
+      
+          
+                
+      <li><a class="filterbutton" data-option-value=".performance" href="#filter"><div class="views-field views-field-nothing">              <span class="field-content"></span>      </div>  
+  <div class="views-field views-field-name">              <span class="field-content"><a href="/events/2014/fall?type=performance">Performance</a></span>      </div></a></li>
+
+      
+        
+  </ul>  
+</div>
+
+
+
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="view view-what-s-on-attachments view-id-what_s_on_attachments view-display-id-attachment_1 view-dom-id-c24b4e8756c2c65e7f86537ea3109729">
+            <div class="view-header">
+      <h2>Series</h2>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/2014/fall/laurie-anderson-1">Laurie Anderson</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+</div>  </div>
+</section>
+<section id="block-search-form" class="block block-search">
+        <div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-A5_74G280grbY-ATkEq9tVXlLH0OsFjU_4oYPrlzA54" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</section>
+  </div>
+      </aside>
+      
+    </div>
+    
+    <footer id="colophon">
+        <div class="region region-footer">
+    <section id="block-boxes-empac-contact" class="block block-boxes block-boxes-simple">
+        <div class="content">
+    <div id='boxes-box-empac_contact' class='boxes-box'><div class="boxes-box-content"><address>
+<p><a href="/"><img src="/profiles/empac_cms/modules/features/empac_cms_core/images/logo_footer_top.png" alt="Curtis R.Priem Experimental Media and Performing Arts Center" /></a><br />
+  110 8th Street, Troy NY 12180</p>
+<p class="footer-links"><a href="/visit">Directions</a>|<a href="/visit">Hours</a></p>
+<p>518-276-3921</p>
+</address>
+<div id="empac-social">
+<ul class="social-sm"><li class="fb"><a href="http://www.facebook.com/EMPACnews">Facebook</a></li>
+<li class="twitter"><a href="https://twitter.com/#!/empacnews">Twitter</a></li>
+<li class="vimeo"><a href="http://vimeo.com/empac">Vimeo</a></li>
+<!--<li class="flickr"><a href="http://www.flickr.com/photos/75731941@N08/">Flickr</a></li>--></ul></div>
+<div id="empac-copyright">
+<p>Copyright © 2003-2012 <a href="http://www.rpi.edu">EMPAC / Rensselaer Polytechnic Institute</a></p>
+</div>
+</div></div>  </div>
+</section>
+<section id="block-menu-menu-events" class="block block-menu">
+        <h1>Events</h1>
+      <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/events/2014/fall" title="">Calendar</a></li>
+<li class="last leaf"><a href="/events" title="">Archive</a></li>
+</ul>  </div>
+</section>
+<section id="block-menu-menu-program" class="block block-menu">
+        <h1>Program</h1>
+      <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/residencies">Residencies</a></li>
+<li class="leaf"><a href="/research" title="">Research</a></li>
+<li class="last leaf"><a href="/commissions" title="">Commissions</a></li>
+</ul>  </div>
+</section>
+<section id="block-menu-menu-info" class="block block-menu">
+        <h1>Info</h1>
+      <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/contact" title="Contact a human being!">Contact_EMPAC</a></li>
+<li class="leaf"><a href="/venue-rental" title="Information about renting EMPAC for your activity.">Venue Rental</a></li>
+<li class="leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/building">Building</a></li>
+<li class="last leaf"><a href="/visit" title="">Visit</a></li>
+</ul>  </div>
+</section>
+<section id="block-menu-menu-connect" class="block block-menu">
+        <h1>Connect</h1>
+      <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/news">News</a></li>
+<li class="leaf"><a href="/about/staff">Staff + Faculty</a></li>
+<li class="last leaf"><a href="/contact">Contact</a></li>
+</ul>  </div>
+</section>
+<section id="block-boxes-empac-rensselaer" class="block block-boxes block-boxes-simple">
+        <div class="content">
+    <div id='boxes-box-empac_rensselaer' class='boxes-box'><div class="boxes-box-content"><p><a href="http://rpi.edu" id="rpi-logo-footer"><img src="/profiles/empac_cms/modules/features/empac_cms_core/images/rpi_logo_footer_bottom.png" alt="Rensselaer" /></a><a href="http://rpi.edu" id="empac-at-rpi-logo-footer"><img src="/profiles/empac_cms/modules/features/empac_cms_core/images/logo_footer_bottom.png" alt="EMPAC @ Rensselaer" /></a></p>
+</div></div>  </div>
+</section>
+  </div>
+    </footer>
+  </body>
+</html>
